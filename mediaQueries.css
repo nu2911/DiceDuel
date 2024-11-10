@@ -1,0 +1,62 @@
+
+/* Media queries */
+
+
+/* tablet OR Mobile Landscapre View */
+/* 
+@media (max-width:950px) {
+  .container2 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width:750px) {
+  .mainCardImg {
+      height: 350px;
+  }
+} */
+
+
+/* Mobile view */
+
+@media (max-width:450px) {
+    .container {      
+        width: 95vw;
+        /* border: 2px solid red; */
+      }     
+        
+     h1 {
+    width: 100%;
+    font-size: 2rem;
+    }
+
+      p {
+    font-size: 2rem;
+     }
+      .dice {
+        max-width: 45%;
+      }
+      img {
+        width: 80%;
+      }
+
+      .btn {
+      margin: 0% 5px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+}      
+
+  
+  
+  /* For ultra small mobiles */
+  
+  /* @media (max-width:364px) {
+    .container {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+  
+  } */
+
+  
